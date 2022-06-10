@@ -1,0 +1,95 @@
+body{
+    background-color: rgba(19, 206, 19, 0.686); /*rgba(19, 206, 19, 0.686)*/
+    color: whie;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.63em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#main-header{
+    background-color: rgba(0, 0, 0, 0.686) ;/*rgb(234, 25, 81)*/
+    color: white;
+}
+
+#navbar{
+    color: white;
+    background: rgb(234, 25, 81);
+}
+
+#navbar ul{
+    padding: 0 ;
+    list-style: none;
+
+}
+
+#navbar li{
+    display: inline;
+
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.showcase{
+    background-image: url(../images/watermelon\ background.jpg);
+background-position: center right;
+min-height: 300px;
+margin-bottom: 30px;
+text-align: center;
+}
+.showcase2{
+    background-image: url(../images/watermelon\ background.jpg);
+background-position: center right;
+min-height: 300px;
+text-align: center;
+padding-top:50px;
+}
+
+.showcase h1{
+    color: rgba(0, 0, 0, 0.893);
+    font-size: 25px;
+    line-height: 1.6em;
+    padding-top: 30px;
+
+}
+
+.main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+
+}
+
+.sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+#main-footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 600px;
+    background-color: rgb(234, 25, 81);
+}
+
+.freeshipping{
+    margin: 0px;
+}
